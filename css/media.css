@@ -1,0 +1,258 @@
+@media (max-width: 1180px){
+    .gallery__img{
+        grid-template-areas: 
+        'g1 g1'
+        'g2 g3'
+        'g5 g4'
+        'g6 g6';
+        max-width: 700px;
+        margin: auto;
+        justify-content: center;
+    }
+}
+@media (max-width: 1110px){
+    .dishes__item{
+        font-size: 18px;
+    }
+    .dishes__item .vector{
+        width: 170px;
+    }
+    .restaurantMenu__cart{
+        display: block;
+    }
+    .restaurantMenu__cart-img{
+        max-width: 270px;
+        margin: auto;
+    }
+    .restaurantMenu__cart-item{
+        max-width: 70%;
+        margin: 10px auto;
+    }
+    .cooks__img{
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .cooks__img img{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 1020px){
+    .history__content{
+        display: block;
+    }
+    .history__img{
+        max-width: 500px;
+        margin: 30px auto;
+    }
+    .history__item{
+        margin: 0 auto;
+    }
+    .history__text{
+        letter-spacing: 0;
+    }
+    .advertising{
+        margin-top: 582px;
+    }
+    .dishes__item .vector{
+        width: 70px;
+    }
+}
+@media (max-width: 920px){
+    .header__menu{
+        display: none;
+    }
+    .header__menu-btn{
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    .header__logo img{
+        width: 70px;
+    }
+    .header__content{
+        margin: 174px auto;
+    }
+    .header__content-text::after{
+        display: none;
+    }
+    .header__content-text::before{
+        display: none;
+    }
+    .history-header__cart{
+        flex-direction: column;
+        align-items: center;
+    }
+    .history .header__cart-item{
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+    .advertising__inner{
+        display: block;
+        text-align: center;
+    }
+    .advertising__content{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .dishes__content{
+        display: block;
+    }
+    .dishes__content .big-img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .dishes__item{
+        justify-content: center;
+        font-size: 20px;
+    }
+    .dishes__item .vector{
+        width: 100px;
+    }
+    .header__menu-mobile{
+        display: block;
+    }
+}
+@media (max-width: 600px){
+    .history__img{
+        max-width: 400px;
+    }
+    .history__img img:first-child{
+        width: 187px;
+    }
+    .history__img img:nth-child(2){
+        width: 175px;
+        right: 206px;
+    }
+    .history__img img:nth-child(3){
+        width: 187px;
+    }
+    .advertising__title{
+        font-size: 50px;
+        line-height: 54px;
+    }
+    .gallery__img .gallery-1,
+    .gallery__img .gallery-6{
+        width: 253px;
+        height: 274px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .gallery__img{
+        grid-template-areas: 
+        'g1'
+        'g2'
+        'g3'
+        'g4'
+        'g5'
+        'g6';
+        max-width: 320px;
+        margin: auto;
+        justify-content: center;
+    }
+}
+@media (max-width: 520px){
+    .header__content-title span:first-child{
+        font-size: 40px;
+        margin-bottom: 20px;
+        line-height: 34px;
+    }
+    .header__content-title span:last-child{
+        font-size: 60px;
+        line-height: 46px;
+    }
+    .history__cart{
+        display: block;
+    }
+    .history__cart .history__cart-item + .history__cart-item{
+        margin-top: 22px;
+    }
+    .dishes__item{
+        font-size: 26px;
+    }
+    .dishes__item .dishes__item-text{
+        margin-right: 10px;
+        font-size: 22px;
+    }
+    .dishes__items{
+        margin-left: -15px;
+    }
+    .dishes__item .vector{
+        display: none;
+    }
+    .dishes__item-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dishes__content .big-img{
+        max-width: none;
+        width: 100vw;
+        margin-left: -15px;
+    }
+    .restaurantMenu__cart-item{
+        max-width: 100%;
+    }
+}
+@media (max-width: 420px){
+    .header__content-title span:first-child{
+        font-size: 30px;
+        margin-bottom: 20px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+    .header__content-title span:last-child{
+        font-size: 45px;
+        line-height: 46px;
+    }
+    .history .header__cart-item{
+        max-width: 100%;
+    }
+    .history__img img:first-child{
+        width: 137px;
+    }
+    .history__img img:nth-child(2){
+        width: 125px;
+        right: 156px;
+    }
+    .history__img img:nth-child(3){
+        width: 137px;
+        top: 100px;
+    }
+    .history__img .bg-fon{
+        width: 164px;
+    }
+    .history__img{
+        max-width: 300px;
+    }
+    .advertising__title{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .advertising{
+        margin-top: 382px;
+    }
+    .dishes__item .hamburg{
+        width: 100px;
+    }
+    .dishes__title{
+        letter-spacing: .5px;
+    }
+    .restaurantMenu__cart-item:not(:nth-child(1)){
+        display: none;
+    }
+    .restaurantMenu__cart-item{
+        max-width: 290px;
+        text-align: center;
+        padding: 80px 30px 30px 30px;
+    }
+    .visitors{
+        padding: 20px 0px 20px;
+    }
+    .gallery::before{
+        display: none;
+    }
+    .gallery::after{
+        display: none;
+    }
+}
